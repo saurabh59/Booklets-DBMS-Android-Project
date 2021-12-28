@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Library</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="hello_admin">Hello Admin</string>
+    <string name="last_added_book">Last Added Book</string>
+    <string name="title">Title: </string>
+    <string name="book_id">Book Id: </string>
+    <string name="author">Author: </string>
+    <string name="edition">Edition: </string>
+    <string name="book_name">Book Name</string>
+    <string name="book_id_">Book Id</string>
+    <string name="author_name">Author Name</string>
+    <string name="edition_">Edition</string>
+    <string name="document_link">Document Link</string>
+    <string name="cover_image_link">Cover Image Link</string>
+    <string name="add_book">Add Book</string>
+    <string name="search">Search</string>
+    <string name="college_recommended">College Recommended Books</string>
+    <string name="programming_languages">Programming Languages</string>
+    <string name="_4_5">4.5</string>
+    <string name="introduction">Introduction</string>
+    <string name="a_lots_of_description">A lots of description</string>
+    <string name="download">Download</string>
+    <string name="pages">Pages</string>
+    <string name="chapters">Chapters</string>
+    <string name="tags">Tags</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="go_to_home_page">Go To Home Page</string>
+    <string name="go_to_login_page">Go To Login Page</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="all_books">All Books</string>
+    <string name="filter">Filter</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="want_any_books_to_be_added">Want any book to be added?</string>
+    <string name="give_us_the_details_the_book">Give us the details of the book</string>
+    <string name="give_us_the_details_of_the_book">Give Us The Details Of The Book</string>
+    <string name="name_of_the_book">Name of the book</string>
+    <string name="request">Request</string>
+    <string name="submit">Submit</string>
+    <string name="check_requested_books">Check Requested Books</string>
+    <string name="requested_books">Requested Books</string>
+    <string name="book_name_">Book Name: </string>
+    <string name="hello">Hello, </string>
+    <string name="request_a_book">Request A Book</string>
+    <string name="resolve">Resolve</string>
+    <string name="long_click_on_each_request_to_dismiss">Long Click On Each Request To Dismiss</string>
+    <string-array name="categories">
+        <item>@string/all_books</item>
+        <item>College Recommended</item>
+        <item>Programming Language</item>
+        <item>Concepts</item>
+    </string-array>
+</resources>

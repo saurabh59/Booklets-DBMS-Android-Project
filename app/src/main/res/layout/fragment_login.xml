@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".views.LoginFragment"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/girlbook" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="20dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailETL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:gravity="center"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordETL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:hint="@string/password"
+                android:gravity="center"
+                android:inputType="textPassword"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginButtonL"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/login"
+            android:layout_margin="20dp"
+            app:cornerRadius="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/extra_bold"
+            android:outlineAmbientShadowColor="@color/secondaryColor"
+            android:outlineSpotShadowColor="@color/secondaryColor"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="?attr/textAppearanceHeadline2"
+            android:gravity="center"
+            android:text="@string/don_t_have_account"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/textButtonStyle"
+            android:id="@+id/registerButtonL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/register"
+            android:fontFamily="@font/extra_bold"
+            android:textColor="@color/primaryColor"
+            android:clickable="true"/>
+    </LinearLayout>
+</FrameLayout>
