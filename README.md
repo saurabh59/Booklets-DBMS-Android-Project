@@ -17,4 +17,8 @@ Once the requested books have been added the admin will remove the requests from
 
 # Screenshots
 ![Home Page](Screenshots/Screenshot_20211226-222102.png)
+![](Screenshots/Screenshot_20211226-222112.png)
+![](Screenshots/Screenshot_20211226-222738.png)
+![](Screenshots/Screenshot_20211226-222743.png)
+![](Screenshots/Screenshot_20211228-190118.png)
 
