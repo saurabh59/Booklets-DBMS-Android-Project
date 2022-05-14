@@ -1,4 +1,5 @@
 # Booklets-DBMS-Android-Project
+[![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 
 ## User view
 A one-in-all tool that finds you what you're looking for.
